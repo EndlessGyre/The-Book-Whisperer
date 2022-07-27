@@ -4,11 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Book Whisperer</title>
+    <title>The Writing Source</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js" async defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js" async defer></script>
 </head>
 <body>
-    <h1>Hello Book People</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2">
+        <div class="container">
+            <a href="#" class="navbar-brand">The Writing Source</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#store" class="nav-link">Books for Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#write" class="nav-link">Write with Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">Questions?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-4 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Reading Is <span class="text-warning">Fundamental</span></h1>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe exercitationem rem voluptatum possimus fugit consequatur incidunt voluptate placeat inventore molestias deserunt maxime, vero iusto aperiam excepturi non.</p>
+                    <button class="btn btn-primary btn-lg">Sign Up</button>
+                </div>                
+                <img src="./img/read.png" alt="reading" class="img-fluid w-25 h-25 d-none d-md-block">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Subscribe -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Subscribe to Our Newsletter</h3>                
+                <div class="input-group email-input">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Sign Me Up!</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="container card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-yin-yang"></i>
+                            </div>
+                            <h3 class="card-title mb-2">Balance</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+                            <a href="#" class="btn btn-primary">Restore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="container card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-wind"></i>
+                            </div>
+                            <h3 class="card-title mb-2">Energy</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+                            <a href="#" class="btn btn-dark">Grow</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="container card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-vector-pen"></i>
+                            </div>
+                            <h3 class="card-title mb-2">Creation</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, nostrum!</p>
+                            <a href="#" class="btn btn-primary">Build</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <!-- Balance Sections -->
+
+<footer>
+    <a href="https://www.flaticon.com/free-icons/read" title="read icons">Read icons created by Freepik - Flaticon</a>
+</footer>
 </body>
 </html>
