@@ -1,5 +1,27 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    background-color: #212529;
+}
+
 @media (min-width: 768px) {
     .email-input{
         width: 50%;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+.attributions {
+    font-size: 10pt;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-style: solid;
 }
